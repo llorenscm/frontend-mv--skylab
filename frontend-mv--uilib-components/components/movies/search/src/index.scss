@@ -1,0 +1,11 @@
+@import '~@schibstedspain/sui-theme/lib/index';
+@import '../../searchBox/src/index';
+@import '../../searchList/src/index';
+
+$bg-movies-search: $c-accent-light !default;
+
+.mv-MoviesSearch {
+  background-color: $bg-movies-search;
+  font-family: $ff-sans-serif;
+  padding: $p-xl;
+}

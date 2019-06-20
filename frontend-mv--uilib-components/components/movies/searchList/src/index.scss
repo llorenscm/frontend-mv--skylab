@@ -1,0 +1,23 @@
+@import '~@schibstedspain/sui-theme/lib/index';
+@import '~@s-ui/react-atom-card/lib/index';
+
+$c-movies-search-list: inherit !default;
+$c-movies-search-list-item: inherit !default;
+
+.mv-MoviesSearchList {
+  color: $c-movies-search-list;
+
+  &-header {
+    font-size: $fz-xl;
+    font-weight: $fw-bold;
+    margin-bottom: $m-l;
+  }
+
+  &-item {
+    color: $c-movies-search-list-item;
+
+    &Image {
+      width: 100%;
+    }
+  }
+}
